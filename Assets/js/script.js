@@ -45,4 +45,16 @@ function mainOperator() {
         renderAnswers();
     }
 }
+
+function checkAnswer(answerSelected) {
+    console.log("Hey, you pressed: ", answerSelected);
+    correctAnswer = questions[questionNumber].correct;
+    if(answerSelected == correctAnswer){
+        console.log("Good Job, You got the correct answer!");
+        scoreArea++;
+        score.innerText = scoreArea;
+    }
+    questionNumber++;
+    mainOperator();
+}
 mainOperator();
