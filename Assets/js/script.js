@@ -9,6 +9,40 @@ const score = document.getElementById("score");
 const questions = [
     {
         "question": "What planet is closest to the sun?",
-        "answers":["Mars", "Mercury", "Jupiter", "Venus"] // Mercury
-    }
+        "answers":["Mars", "Mercury", "Jupiter", "Venus"], // Mercury
+        "correct": 1
+    },    
+    {
+        "question": "What planet is furthest to the sun?",
+        "answers":["Pluto", "Mercury", "Moon", "Venus"], // Pluto
+        "correct": 0
+    },
+    {
+        "question": "What planet is the largest in the solar sytem?",
+        "answers":["Mars", "Mercury", "Jupiter", "Venus"], // Jupiter
+        "correct": 2
+    },
+
 ]
+let questionNumber = 0;
+let scoreArea = 0;
+let quizNumber = questions.length;
+
+function renderQuestion() {
+    question.innerText = questions[questionNumber].question;
+}
+
+function renderAnswers() {
+    answer0.innerText = questions[questionNumber].answers[0];
+    answer1.innerText = questions[questionNumber].answers[1];
+    answer2.innerText = questions[questionNumber].answers[2];
+    answer3.innerText = questions[questionNumber].answers[3];
+}
+
+function mainOperator() {
+    if (questionNumber < quizNumber) {
+        renderQuestion();
+        renderAnswers();
+    }
+}
+mainOperator();
