@@ -43,6 +43,8 @@ function mainOperator() {
     if (questionNumber < quizNumber) {
         renderQuestion();
         renderAnswers();
+    } else {
+        wrapper.innerHTML = `<h2>Game Over! Your Score:</h2>`
     }
 }
 
