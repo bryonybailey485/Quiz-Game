@@ -22,6 +22,26 @@ const questions = [
         "answers":["Mars", "Mercury", "Jupiter", "Venus"], // Jupiter
         "correct": 2
     },
+    {
+        "question": "How many time zones are there in the world?",
+        "answers": ["23", "39", "100", "24"], // 24
+        "correct": 3
+    },
+    {
+        "question": "What is the 17th letter of the English alphabet?",
+        "answers": ["R", "S", "Q", "P"], // Q
+        "correct": 2
+    },
+    {
+        "question": "If you have arachnophobia, what are you afraid of?",
+        "answers": ["Heights", "Spiders", "Open spaces", "Cats"], // Spiders
+        "correct": 1
+    },
+    {
+        "question": "What color is a polar bears skin?",
+        "answers": ["Pink", "Black", "Gray", "White"], // Black
+        "correct": 1
+    },
 
 ]
 let questionNumber = 0;
