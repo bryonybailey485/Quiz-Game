@@ -42,6 +42,36 @@ const questions = [
         "answers": ["Pink", "Black", "Gray", "White"], // Black
         "correct": 1
     },
+    {
+        "question": "How many strings does a standard violin have?",
+        "answers": ["3", "6", "5", "4"], // 4
+        "correct": 3
+    },
+    {
+        "question": "What year did TikTok launch?",
+        "answers":["2017", "2019", "2016", "2015"], // 2017
+        "correct": 0
+    },
+    {
+        "question": "How many times did Ross get divorced in Friends?",
+        "answers": ["1", "4", "0", "3"], //3
+        "correct": 3
+    },
+    {
+        "question": "The Baha Men sang a song wondering who let what out?",
+        "answers": ["Cats", "Girls", "Dogs", "Goats"], //Dogs
+        "correct": 2
+    },
+    {
+        "question": "What is the name of a baby kangaroo?",
+        "answers": ["Cub", "Calf", "Joey", "Colt"], // Joey
+        "correct": 2
+    },
+    {
+        "question": "What color shirt does Winnie the Pooh wear?",
+        "answers": ["Orange", "Blue", "Red", "White"], // Red
+        "correct": 2
+    },
 
 ]
 let questionNumber = 0;
