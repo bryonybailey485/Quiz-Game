@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Game</title>
-
-    <link rel="stylesheet" href="Assets/css/generalquiz.css">
+    <title>Gaming Quiz</title>
 </head>
-
 <body>
-    <h1>General Knowledge</h1>
-    <div class="container">
+    <h1>Gaming Quiz</h1>
+    <div clas="container">
         <div id="wrapper">
-            <div id="question"></div>
-            <button id="answer0" onclick="checkAnswer(0)"></button>
-            <button id="answer1" onclick="checkAnswer(1)"></button>
-            <button id="answer2" onclick="checkAnswer(2)"></button>
-            <button id="answer3" onclick="checkAnswer(3)"></button>
+            <div>
+                <button id="answer0" onclick="checkAnswer(0)"></button>
+                <button id="answer1" onclick="checkAnswer(1)"></button>
+                <button id="answer2" onclick="checkAnswer(2)"></button>
+                <button id="answer3" onclick="checkAnswer(3)"></button>
+            </div>
+            <p>Score: <span id="score">0</span></p>
+            <br>
         </div>
-        <p>Score: <span id="score">0</span></p>
-        <br>
     </div>
     <div>
         <h2>More Quizzes</h2>
         <a href="index.html">Home</a>
         <br>
-        <a href="gamingquiz.html">Gaming Quiz</a>
+        <a href="generalquiz.html">General Knowledge Quiz</a>
     </div>
+    <script src="Assets/js/gamingquiz.js"></script>
+    <link rel="stylesheet" href="Assets/css/gamingquiz.css">
 
-    <script src="Assets/js/generalquiz.js"></script>
 </body>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

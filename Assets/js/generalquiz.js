@@ -115,5 +115,4 @@ document.getElementById("answer0").style.fontSize='150%';
 document.getElementById("answer1").style.fontSize='150%';
 document.getElementById("answer2").style.fontSize='150%';
 document.getElementById("answer3").style.fontSize='150%';
-document.getElementById("score").style.fontSize='170%';
 mainOperator();
