@@ -1,8 +1,15 @@
 * {
     text-align: center;
+    font-family: 'Poetsen One';
 }
 
 h1{
-    font-family: 'Poetsen One';
-    font-size: 60px;
+    font-size: 500%;
+}
+h3{
+    font-size: 350%;
+}
+a{
+    font-size: 200%;
+
 }
