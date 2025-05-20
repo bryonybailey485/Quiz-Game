@@ -29,3 +29,16 @@ p {
 a {
     font-size: 130%;
 }
+@media(min-width:300px) {
+    .container{
+        background-color: gray;
+        background-image: none;
+        box-shadow: none;
+        margin-right: 150rem;
+        text-align: center;
+    }
+    h1 {
+        font-size: 1.5rem;
+        padding-right: 0.5rem;
+    }
+}

@@ -43,15 +43,22 @@ const questions = [
         "answer": ["Squares", "Trianges", "Dots", "Arrows"], // Dots
         "correct": 2
     },
-]
+];
 let questionNumber = 0;
 let scoreArea = 0;
 let quizNumber = questions.length;
+
+/**
+ * This function displays the questions on the webpage
+ */
 
 function renderQuestion() {
     question.innerText = questions[questionNumber].question;
 }
 
+/**
+ * This function displays the question's answers on the webpage
+ */
 function renderAnswers() {
     answer0.innerText = questions[questionNumber].answers[0];
     answer1.innerText = questions[questionNumber].answers[1];
@@ -59,18 +66,26 @@ function renderAnswers() {
     answer3.innerText = questions[questionNumber].answers[3];
 }
 
+/**
+ * This function starts the game and loads the questions and
+ * the answers
+ */
 function mainOperator() {
     if (questionNumber < quizNumber) {
         renderQuestion();
         renderAnswers();
     } else {
-        wrapper.innerHTML = `<h2>Game Over! Your Score:</h2>`
+        wrapper.innerHTML = `<h2>Game Over! Your Score:</h2>`;
     }
 }
-
+/**
+ * This function checks the answer from the parameter passed
+ * from the quiz page - It also increments the question number 
+ * and calls the main operator.
+ */ 
 function checkAnswer(answerSelected) {
     console.log("Hey, you pressed: ", answerSelected);
-    correctAnswer = questions[questionNumber].correct;
+    let correctAnswer = questions[questionNumber].correct;
     if(answerSelected == correctAnswer){
         console.log("Good Job, You got the correct answer!");
         scoreArea++;
@@ -79,6 +94,9 @@ function checkAnswer(answerSelected) {
     questionNumber++;
     mainOperator();
 }
+function reset(){
+    window.location.reload();
+}
 
 document.getElementById("question").style.fontSize = '300%';
 document.getElementById("answer0").style.fontSize='150%';
@@ -86,3 +104,4 @@ document.getElementById("answer1").style.fontSize='150%';
 document.getElementById("answer2").style.fontSize='150%';
 document.getElementById("answer3").style.fontSize='150%';
 mainOperator();
+
