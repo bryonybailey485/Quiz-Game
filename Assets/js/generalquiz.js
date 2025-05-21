@@ -125,9 +125,9 @@ function checkAnswer(answerSelected) {
     mainOperator();
 }
 
-document.getElementById("question").style.fontSize = '300%';
-document.getElementById("answer0").style.fontSize='150%';
-document.getElementById("answer1").style.fontSize='150%';
-document.getElementById("answer2").style.fontSize='150%';
-document.getElementById("answer3").style.fontSize='150%';
+document.getElementById("question").style.fontSize = '220%';
+document.getElementById("answer0").style.fontSize='180%';
+document.getElementById("answer1").style.fontSize='180%';
+document.getElementById("answer2").style.fontSize='180%';
+document.getElementById("answer3").style.fontSize='180%';
 mainOperator();

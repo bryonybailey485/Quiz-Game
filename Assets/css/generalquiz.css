@@ -3,6 +3,7 @@
 }
 body{
     background-color: gray;
+    width: 100%;
 }
 
 .container {
@@ -12,7 +13,6 @@ body{
     width: 900px;
     height:900%;
     text-align: center;
-    margin-left: 25%;
     color: aliceblue;
 }
 
@@ -24,21 +24,49 @@ h1 {
 p {
     font-size: 150%;
     margin-top: 20%;
+    padding-right: 60%;
 }
 
 a {
     font-size: 130%;
 }
-@media(min-width:300px) {
+@media(max-width:500px) {
     .container{
         background-color: gray;
         background-image: none;
         box-shadow: none;
-        margin-right: 150rem;
         text-align: center;
+        font-size: 12px;
     }
     h1 {
-        font-size: 1.5rem;
+        font-size: 2.1rem;
         padding-right: 0.5rem;
     }
+    #question{
+        padding-right: 60%;
+        font-size: 20px;
+    }
+    #answer0{
+        margin-right: 60%;
+        margin-top: 2%;
+        text-align: center;
+
+    }
+    #answer1{
+        margin-right: 60%;
+        text-align: center;
+        margin-top: 3%;
+    }
+    #answer2{
+        margin-right: 60%;
+        text-align: center;
+        margin-top: 3%;
+    }
+        #answer3{
+        margin-right: 60%;
+        text-align: center;
+        margin-top: 3%;
+
+    }
+
 }
