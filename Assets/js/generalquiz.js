@@ -126,7 +126,7 @@ function checkAnswer(answerSelected) {
 }
 
 document.getElementById("question").style.fontSize = '220%';
-document.getElementById("answer0").style.fontSize='180%';
+document.getElementById("answer0").style.fontSize='18 0%';
 document.getElementById("answer1").style.fontSize='180%';
 document.getElementById("answer2").style.fontSize='180%';
 document.getElementById("answer3").style.fontSize='180%';

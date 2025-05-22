@@ -13,6 +13,7 @@ body{
     width: 900px;
     height:900%;
     text-align: center;
+    margin-left: 25%;
     color: aliceblue;
 }
 
@@ -22,13 +23,25 @@ h1 {
 }
 
 p {
-    font-size: 150%;
+    font-size: 170%;
     margin-top: 20%;
-    padding-right: 60%;
 }
-
 a {
     font-size: 130%;
+}
+#answer0{
+    font-size: 30px;
+}
+#answer1{
+    font-size: 30px;
+    
+}
+#answer2{
+    font-size: 30px;
+}
+#answer3{
+    font-size: 30px;
+    
 }
 @media(max-width:500px) {
     .container{
@@ -37,36 +50,49 @@ a {
         box-shadow: none;
         text-align: center;
         font-size: 12px;
+        width: 250px;
+        margin-left: 20%;
+        margin-right: 20%;
     }
     h1 {
         font-size: 2.1rem;
         padding-right: 0.5rem;
     }
+    h2{
+        text-align: center;
+    }
+    a{
+        margin-right:5%;
+    }
     #question{
-        padding-right: 60%;
         font-size: 20px;
+        margin-right: 20%;
     }
     #answer0{
-        margin-right: 60%;
+        margin-right: 20%;
         margin-top: 2%;
         text-align: center;
 
     }
     #answer1{
-        margin-right: 60%;
+        margin-right: 20%;
         text-align: center;
         margin-top: 3%;
     }
     #answer2{
-        margin-right: 60%;
+        margin-right: 20%;
         text-align: center;
         margin-top: 3%;
     }
-        #answer3{
-        margin-right: 60%;
+    #answer3{
+        margin-right: 20%;
         text-align: center;
         margin-top: 3%;
 
+    }
+    p{
+        text-align: center;
+        margin-right: 20%;
     }
 
 }
