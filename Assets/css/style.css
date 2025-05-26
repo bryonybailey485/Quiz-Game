@@ -1,15 +1,22 @@
 * {
     text-align: center;
     font-family: 'Poetsen One';
+    color: beige;
 }
-
+body{
+    background-image: url(/Assets/images/homebackground.jpg);
+    background-attachment: fixed;
+}
 h1{
     font-size: 500%;
+}
+h2{
+    font-size: 2000%;
+    text-align: center;
 }
 h3{
     font-size: 350%;
 }
 a{
     font-size: 200%;
-
 }

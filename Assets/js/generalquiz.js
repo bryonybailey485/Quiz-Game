@@ -124,6 +124,10 @@ function checkAnswer(answerSelected) {
     questionNumber++;
     mainOperator();
 }
+function reset(){
+    window.location.reload();
+}
+
 
 document.getElementById("question").style.fontSize = '220%';
 document.getElementById("answer0").style.fontSize='18 0%';
