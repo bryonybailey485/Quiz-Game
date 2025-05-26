@@ -14,7 +14,7 @@ body {
     width: 900px;
     height: 500%;
     text-align: center;
-    margin-left: 25%;
+    margin-left: 30%;
     color: aliceblue;
 }
 
@@ -85,126 +85,30 @@ a:hover{
         margin-left:20%
     }
 } */
-
-@media(max-width:500px) {
-    .container {
-        background-color: gray;
-        background-image: none;
-        box-shadow: none;
-        text-align: center;
-        font-size: 12px;
-        width: 250px;
-        margin-left: 20%;
-        margin-right: 20%;
-    }
-
-    h1 {
-        font-size: 2.1rem;
-        padding-right: 0.5rem;
-    }
-
-    h2 {
+@media(min-width:300px){
+    *{
         text-align: center;
     }
-
-    a {
-        margin-right: 5%;
+    h1{
+        font-size: 60px;
     }
-
-    #question {
-        font-size: 20px;
-        margin-right: 20%;
-    }
-
-    #answer0 {
-        margin-right: 20%;
-        margin-top: 2%;
-        text-align: center;
-
-    }
-
-    #answer1 {
-        margin-right: 20%;
-        text-align: center;
-        margin-top: 3%;
-    }
-
-    #answer2 {
-        margin-right: 20%;
-        text-align: center;
-        margin-top: 3%;
-    }
-
-    #answer3 {
-        margin-right: 20%;
-        text-align: center;
-        margin-top: 3%;
-
-    }
-
-    p {
-        text-align: center;
-        margin-right: 20%;
-    }
-}
-@media (max-width: 800px) {
     .container{
-        background-image: none;
-        background-color: gray;
-        box-shadow: none;
+        margin-left:2px;
+        width: auto;
+    }
+    #wrapper{
+        font-size: 13px;
+    }
+    button{
         font-size: 20px;
-        padding-right: 60%;
-    }
-    #answer0{
-        font-size: 35px;
-    }
-        h2 {
-        font-size: 40px;
-    }
-
-    a {
-        font-size: 35px;
     }
 }
-
-
-
-@media(max-width: 1000px) {
-    .container {
-        width: 93%;
-        margin-left: 5%;
-    }
-    #question {
-        font-size: 100px;
-    }
-
-    #answer1 {
-        font-size: 20%;
-    }
-
-    #score {
-        margin-top: 10%;
-    }
-
-    h2 {
-        font-size: 50px;
-    }
-
-    a {
-        font-size: 35px;
-    }
-}
-@media(max-width: 1500px){
+@media(min-width:500px){
     .container{
-        margin-left: 15%;
-    }
-        h2 {
-        font-size: 40px;
-    }
-
-    a {
-        font-size: 35px;
     }
 }
-
-
+@media(min-width:1000px){
+    .container{
+        width: auto;
+    }
+}

@@ -11,12 +11,8 @@ body {
 }
 
 .container {
-    background-size: 60%;
     width: 900px;
-    height: 500%;
-    padding-bottom: 2%;
-    text-align: center;
-    margin-left: 25%;
+    margin-left: 30%;
 }
 
 h1 {
@@ -45,13 +41,11 @@ a:hover{
 }
 #more{
     font-size: 300%;
-    text-align: center;
     color: whitesmoke;
         text-decoration: underline;
 
 }
 #score{
-    text-align: center;
 }
 #reset{
     font-size: 150%;
@@ -70,4 +64,31 @@ a:hover{
 }
 #answer3:hover{
     color: gray;
+}
+@media(min-width:300px){
+    *{
+        text-align: center;
+    }
+    h1{
+        font-size: 60px;
+    }
+    .container{
+        margin-left:2px;
+        width: auto;
+    }
+    #wrapper{
+        font-size: 13px;
+    }
+    button{
+        font-size: 20px;
+    }
+}
+@media(min-width:500px){
+    .container{
+    }
+}
+@media(min-width:1000px){
+    .container{
+        width: auto;
+    }
 }
