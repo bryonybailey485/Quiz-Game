@@ -83,5 +83,5 @@ This allowed me to host my website.
 
 
 ## Credits And References
-Throughout the project I used code snippets from Code Insitute's Love Running Project, W3schools.com and Code Insitute Mentor.
+Throughout the project I used code snippets from Code Insitute's Projects, W3schools.com and Code Insitute Mentor.
 
