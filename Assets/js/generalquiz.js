@@ -105,7 +105,7 @@ function mainOperator() {
         renderQuestion();
         renderAnswers();
     } else {
-        wrapper.innerHTML = `<h2>Game Over! Your Score:</h2>`
+        wrapper.innerHTML = `<h2>Game Over! Your Score:</h2>`;
     }
 }
 /**
