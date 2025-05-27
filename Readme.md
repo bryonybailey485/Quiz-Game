@@ -11,8 +11,8 @@ Quiz World is a growing website with the plan of having the most quiz topics and
 The website is designed with various different pages, with the main page having a list of all quiz topics and pages. With easy to read font and text colour.
 
 ### <u>Wireframes </u>
-![General Knowledge Quiz Wireframe](assets/images/General-Mobile-Wireframe.png)
-![Gaming Quiz Wireframe ](assets/images/Gaming-Mobile-Wireframe.png)
+![General Knowledge Quiz Wireframe](Assets/images/General-Mobile-Wireframe.png)
+![Gaming Quiz Wireframe ](Assets/images/Gaming-Mobile-Wireframe.png)
 
 ### <u>Deployment </u>
 I hosted my project using GitHub which was linked to my Visual Studio Code.
@@ -40,28 +40,28 @@ This allowed me to host my website.
 ## <b><u>Mobile Version </b></u>
 ![Main Page] (assets/images/QuizWorld-Home.png)
 
-![General Knowledge Quiz Page](assets/images/General-Knowledge-Mobile.png)
+![General Knowledge Quiz Page](Assets/images/General-Knowledge-Mobile.png)
 
 ![Gaming Knowledge Quiz Page](Assets/images/Gaming-Quiz-Mobile.png)
 
 ## <b><u>Tablet Version </b></u>
-![Main Page](assets/images/Main-Page-Tablet.png)
+![Main Page](Assets/images/Main-Page-Tablet.png)
 
-![General Knowledge Quiz Page](assets/images/General-Knowledge-Tablet.png)
+![General Knowledge Quiz Page](Assets/images/General-Knowledge-Tablet.png)
 
-![Gaming Knowledge Quiz Page](assets/images/Gaming-Quiz-Tablet.png)
+![Gaming Knowledge Quiz Page](Assets/images/Gaming-Quiz-Tablet.png)
 
 ## <b><u> Code Validation </u></b>
 ### General Quiz
 #### CSS Validation
-![CSS Validation](assets/images/GeneralCSSValidator.png)
+![CSS Validation](Assets/images/GeneralCSSValidator.png)
 #### HTML Validation
-![HTML Validation](assets/images/GeneralQuiz-Validator.png)
+![HTML Validation](Assets/images/GeneralQuiz-Validator.png)
 ### Gaming Quiz
 #### CSS Validation
-![CSS Validation](assets/images/GamingCssValidator.png)
+![CSS Validation](Assets/images/GamingCssValidator.png)
 #### HTML Validation
-![HTML Validation](assets/images/GamingQuiz-Validator.png)
+![HTML Validation](Assets/images/GamingQuiz-Validator.png)
 
 | Browser    | Device | Apperance | Responsiveness |
 |------------|--------|-----------|----------------|
