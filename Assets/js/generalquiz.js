@@ -73,7 +73,7 @@ const questions = [
         "correct": 2
     },
 
-]
+];
 let questionNumber = 0;
 let scoreArea = 0;
 let quizNumber = questions.length;
@@ -124,6 +124,9 @@ function checkAnswer(answerSelected) {
     questionNumber++;
     mainOperator();
 }
+/**
+ * This function resets the page so the user can start the quiz from the beginning question.
+ */
 function reset(){
     window.location.reload();
 }

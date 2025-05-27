@@ -75,16 +75,13 @@ a:hover{
     .container{
         margin-left:2px;
         width: auto;
+        height: auto;
     }
     #wrapper{
         font-size: 13px;
     }
     button{
         font-size: 20px;
-    }
-}
-@media(min-width:500px){
-    .container{
     }
 }
 @media(min-width:1000px){

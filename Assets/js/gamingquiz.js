@@ -94,6 +94,9 @@ function checkAnswer(answerSelected) {
     questionNumber++;
     mainOperator();
 }
+/**
+ * This function resets the page so the user can start the quiz from the beginning question.
+ */
 function reset(){
     window.location.reload();
 }
